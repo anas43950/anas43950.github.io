@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #001858;
+  background-color: #fef6e4;
+}
+
+.main-heading {
+  font-size: 3rem;
+  margin: 35px auto 20px;
+}
+.expression-container {
+  padding: 7px 15px;
+  border: 1px solid #001858;
+  border-radius: 15px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: white;
+}
+.previous-expression {
+  text-align: right;
+  letter-spacing: 1px;
+}
+input {
+  border: none;
+  font-size: 36px;
+  color: inherit;
+  text-align: right;
+  max-width: 100%;
+  font-weight: 600;
+}
+input:focus {
+  outline: none;
+}
+
+.button-container {
+  display: grid;
+  margin: 35px;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(4, 70px);
+  justify-content: center;
+  gap: 25px;
+}
+
+.grid-item {
+  font-size: 35px;
+  color: inherit;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.digit-btn {
+  background-color: #f582ae;
+}
+.opr-btn,
+.clear-btn,
+.equal-btn {
+  background-color: #8bd3dd;
+}
+
+.pressed {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  opacity: 0.6;
+}
